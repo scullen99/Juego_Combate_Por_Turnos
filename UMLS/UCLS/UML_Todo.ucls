@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="estado.EstadoSangrando" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoSangrando.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="168" x="-97" y="1581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="enemigos.Homeopata" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Homeopata.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="1047" y="1020"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="estado.EstadoArdiendo" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoArdiendo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="159" x="369" y="1581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="personajes.Personaje" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/personajes/Personaje.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="223" x="635" y="1720"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="estrategia.EstrategiaCombate" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estrategia/EstrategiaCombate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="164" x="369" y="369"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="personajes.Jugador" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/personajes/Jugador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="143" x="640" y="1195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="enemigos.Enemigo" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Enemigo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="278" x="409" y="719"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="enemigos.Oso" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Oso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="791" y="1020"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="escenarios.FactoryMercadona" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/escenarios/FactoryMercadona.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="176" x="790" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="estado.EstadoCombate" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoCombate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="171" x="-181" y="1334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="combate.DecoradorCombate" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/DecoradorCombate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="206" x="53" y="1195"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="combate.DecoradorDefensa" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/DecoradorDefensa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="205" x="114" y="1334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="combate.CombateComponente" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/CombateComponente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="197" x="661" y="1334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="estrategia.EstrategiaOfensiva" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estrategia/EstrategiaOfensiva.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="166" x="163" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="escenarios.FactoryDesierto" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/escenarios/FactoryDesierto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="176" x="1222" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="combate.DecoradorAtaque" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/DecoradorAtaque.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="199" x="359" y="1334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="estrategia.EstrategiaDefensiva" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estrategia/EstrategiaDefensiva.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="171" x="369" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="combate.CalculadoraDaño" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/CalculadoraDaño.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="210" x="1068" y="2291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="combate.InterfazCombate" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/combate/InterfazCombate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="197" x="111" y="1581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="main.Main" project="Proyecto_Diseño" file="/Proyecto_Diseño/src/main/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="750" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="escenarios.FactoryLuna" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/escenarios/FactoryLuna.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="176" x="1006" y="508"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="escenarios.AbstractFactoryEnemigos" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/escenarios/AbstractFactoryEnemigos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="176" x="937" y="719"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="estado.EstadoEnvenenado" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoEnvenenado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="175" x="568" y="1581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="enemigos.Vikingo" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Vikingo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="1559" y="1020"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="estado.EstadoDesorientado" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoDesorientado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="179" x="416" y="2291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="estado.EstadoCongelado" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/estado/EstadoCongelado.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="166" x="635" y="2291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="enemigos.Twittero" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Twittero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="535" y="1020"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="enemigos.Terraplanista" project="Proyecto_Diseño" 
+    file="/Proyecto_Diseño/src/enemigos/Terraplanista.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="216" x="1303" y="1020"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="30">    
+    <bendpoint x="897" y="1195"/>    
+    <bendpoint x="888" y="1334"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="23"/>  
+  </dependency>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="32">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="33" name="calc">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="34" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="35">    
+    <bendpoint x="399" y="1020"/>    
+    <bendpoint x="399" y="1195"/>    
+    <bendpoint x="630" y="1334"/>    
+    <bendpoint x="815" y="1581"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="36">    
+    <bendpoint x="1014" y="1195"/>    
+    <bendpoint x="972" y="1334"/>    
+    <bendpoint x="972" y="1581"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="1407" y="719"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="40">    
+    <bendpoint x="780" y="369"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="44">    
+    <bendpoint x="759" y="719"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="46">    
+    <bendpoint x="738" y="369"/>    
+    <bendpoint x="738" y="508"/>    
+    <bendpoint x="738" y="719"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="48">    
+    <bendpoint x="-254" y="508"/>    
+    <bendpoint x="-254" y="719"/>    
+    <bendpoint x="-254" y="1020"/>    
+    <bendpoint x="-254" y="1195"/>    
+    <bendpoint x="-254" y="1334"/>    
+    <bendpoint x="-254" y="1581"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="972" y="1195"/>    
+    <bendpoint x="1035" y="1334"/>    
+    <bendpoint x="1077" y="1581"/>    
+    <bendpoint x="1077" y="1720"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="50">    
+    <bendpoint x="773" y="1581"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="51">    
+    <bendpoint x="993" y="1195"/>    
+    <bendpoint x="993" y="1334"/>    
+    <bendpoint x="1035" y="1581"/>    
+    <bendpoint x="1035" y="1720"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="53">    
+    <bendpoint x="1056" y="1195"/>    
+    <bendpoint x="1098" y="1334"/>    
+    <bendpoint x="1119" y="1581"/>    
+    <bendpoint x="1119" y="1720"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="55">    
+    <bendpoint x="378" y="719"/>    
+    <bendpoint x="462" y="1020"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="801" y="719"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="59">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="60">    
+    <bendpoint x="591" y="369"/>    
+    <bendpoint x="591" y="508"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <dependency id="62">    
+    <bendpoint x="569" y="369"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="63">    
+    <bendpoint x="-191" y="1720"/>    
+    <bendpoint x="-191" y="1581"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="65">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="68">    
+    <bendpoint x="1035" y="1195"/>    
+    <bendpoint x="1014" y="1334"/>    
+    <bendpoint x="993" y="1581"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="70">    
+    <bendpoint x="836" y="1581"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="71">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="72">    
+    <bendpoint x="759" y="369"/>    
+    <bendpoint x="759" y="508"/>    
+    <bendpoint x="780" y="719"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="73">    
+    <bendpoint x="1161" y="1195"/>    
+    <bendpoint x="1119" y="1334"/>    
+    <bendpoint x="1098" y="1581"/>    
+    <bendpoint x="1056" y="1720"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="74">    
+    <bendpoint x="864" y="719"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="75">    
+    <bendpoint x="951" y="1195"/>    
+    <bendpoint x="951" y="1334"/>    
+    <bendpoint x="951" y="1581"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="76">    
+    <bendpoint x="609" y="1195"/>    
+    <bendpoint x="609" y="1334"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="77">    
+    <bendpoint x="876" y="1195"/>    
+    <bendpoint x="930" y="1334"/>    
+    <bendpoint x="930" y="1581"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="78">    
+    <bendpoint x="843" y="719"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="79">    
+    <bendpoint x="909" y="1334"/>    
+    <bendpoint x="909" y="1581"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="80">    
+    <bendpoint x="1164" y="719"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="82">    
+    <bendpoint x="1206" y="719"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="84">    
+    <bendpoint x="483" y="1020"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="85">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <realization id="86">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="87">    
+    <bendpoint x="570" y="508"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="88" name="componente">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="89" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="90">    
+    <bendpoint x="1386" y="719"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="91">    
+    <bendpoint x="1098" y="1195"/>    
+    <bendpoint x="1056" y="1334"/>    
+    <bendpoint x="1014" y="1581"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <dependency id="93">    
+    <bendpoint x="1140" y="1195"/>    
+    <bendpoint x="1140" y="1334"/>    
+    <bendpoint x="1140" y="1581"/>    
+    <bendpoint x="1140" y="1720"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="94">    
+    <bendpoint x="378" y="1020"/>    
+    <bendpoint x="378" y="1195"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="96">    
+    <bendpoint x="1077" y="1195"/>    
+    <bendpoint x="1077" y="1334"/>    
+    <bendpoint x="1056" y="1581"/>    
+    <bendpoint x="1014" y="1720"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <dependency id="97">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="98">    
+    <bendpoint x="822" y="719"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="100">    
+    <bendpoint x="338" y="369"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="102">    
+    <bendpoint x="906" y="719"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="103">    
+    <bendpoint x="338" y="1581"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="104">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <realization id="105">    
+    <bendpoint x="41" y="1334"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="107">    
+    <bendpoint x="1428" y="369"/>    
+    <bendpoint x="1428" y="508"/>    
+    <bendpoint x="1365" y="719"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="108">    
+    <bendpoint x="1143" y="719"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="109">    
+    <bendpoint x="1449" y="369"/>    
+    <bendpoint x="1449" y="508"/>    
+    <bendpoint x="1449" y="719"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <association id="110">    
+    <bendpoint x="-149" y="1581"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="111" name="estados">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="112" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="114">    
+    <bendpoint x="1428" y="719"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="115">    
+    <bendpoint x="1227" y="719"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="116">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="117">    
+    <bendpoint x="1185" y="719"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="118">    
+    <bendpoint x="-233" y="1720"/>    
+    <bendpoint x="-233" y="1581"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="120">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <dependency id="121">    
+    <bendpoint x="995" y="369"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="122">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="123">    
+    <bendpoint x="62" y="1334"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="124" name="componente">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="125" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="126">    
+    <bendpoint x="887" y="369"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="127">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <dependency id="128">    
+    <bendpoint x="420" y="1195"/>    
+    <bendpoint x="83" y="1334"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="129">    
+    <bendpoint x="336" y="719"/>    
+    <bendpoint x="336" y="1020"/>    
+    <bendpoint x="357" y="1195"/>    
+    <bendpoint x="588" y="1334"/>    
+    <bendpoint x="794" y="1581"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="131">    
+    <bendpoint x="357" y="719"/>    
+    <bendpoint x="420" y="1020"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="132">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="133">    
+    <bendpoint x="1322" y="1195"/>    
+    <bendpoint x="1322" y="1334"/>    
+    <bendpoint x="1322" y="1581"/>    
+    <bendpoint x="1322" y="1720"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <realization id="134">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <dependency id="135">    
+    <bendpoint x="-212" y="719"/>    
+    <bendpoint x="-212" y="1020"/>    
+    <bendpoint x="-212" y="1195"/>    
+    <bendpoint x="-212" y="1334"/>    
+    <bendpoint x="-212" y="1581"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="136">    
+    <bendpoint x="717" y="369"/>    
+    <bendpoint x="717" y="508"/>    
+    <bendpoint x="717" y="719"/>    
+    <bendpoint x="504" y="1020"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="137">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="139">    
+    <bendpoint x="885" y="719"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="27"/>  
+  </dependency>  
+  <association id="140">    
+    <bendpoint x="-170" y="1581"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="141" name="componente">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="142" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="143">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="144">    
+    <bendpoint x="357" y="1020"/>    
+    <bendpoint x="336" y="1195"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="145">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="146">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <dependency id="147">    
+    <bendpoint x="441" y="1020"/>    
+    <bendpoint x="441" y="1195"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="148">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="149">    
+    <bendpoint x="20" y="1334"/>    
+    <bendpoint x="-128" y="1581"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="150">    
+    <bendpoint x="1470" y="369"/>    
+    <bendpoint x="1470" y="508"/>    
+    <bendpoint x="1470" y="719"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="151">    
+    <bendpoint x="888" y="1581"/>    
+    <bendpoint x="888" y="1720"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
