@@ -23,4 +23,4 @@ Proyecto final para la asignatura <b>Diseño de Software</b> Curso 2019/2020
 
 [X] Creación del manual de uso
 
-[] Creación de la descripción del juego
+[X] Creación de la descripción del juego
