@@ -10,7 +10,6 @@ import escenarios.FactoryMercadona;
 import estrategia.*;
 import personajes.Jugador;
 
-
 public class Main {
 	
 	public static void main(String []args) {
@@ -21,17 +20,32 @@ public class Main {
 		
 		// Nos creamos a nuestro personaje que va a luchar contra los enemigos
 		// 1 vs 1 por turnos
-		int ataquePJ = 60;	
-		int defensaPJ = 2;
-		int vidaPJ = 200;
 		
 		//Crear 3 personajes
 		//for(int i = 0; i < 3; i++) {
-			
-		System.out.println("Escribe el nombre del jugador");
-			
-		Jugador jugador = new Jugador(inputTeclado.next(), ataquePJ, defensaPJ, vidaPJ);
-			
+		
+		// El usuario introduce el nombre del personaje
+		System.out.println("Escribe el nombre del jugador: ");
+		String nombreJugador = inputTeclado.next();
+		
+		// El usuario introduce el ataque del personaje
+		System.out.println("Escribe el Ataque de " + nombreJugador + ":");
+		int ataquePJ = inputTeclado.nextInt();
+		
+		// El usuario introduce la defensa del personaje
+		System.out.println("Escribe la Defensa de " + nombreJugador + ":");
+		int defensaPJ = inputTeclado.nextInt();
+		
+		// El usuario introduce la vida del personaje
+		System.out.println("Escribe la vida de " + nombreJugador + ":");
+		int vidaPJ = inputTeclado.nextInt();
+		
+		Jugador jugador = new Jugador(nombreJugador, ataquePJ, defensaPJ, vidaPJ);
+		
+		//System.out.println("Escribe el Ataque de " + jugador.getNombre());
+		//System.out.println("Escribe la Defensa de " + jugador.getNombre());
+		//System.out.println("Escribe la vida de " + jugador.getNombre());
+		
 		System.out.println("\nStats de personaje: ");
 		System.out.println("Nombre: " + jugador.getNombre());
 		System.out.println("Ataque: " + ataquePJ);
