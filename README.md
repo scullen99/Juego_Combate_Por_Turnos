@@ -19,7 +19,7 @@ Proyecto final para la asignatura <b>Diseño de Software</b> Curso 2019/2020
   
 [X] Uso del patrón Template Method
 
-[] Creación del UML
+[X] Creación del UML
 
 [] Creación del manual de uso
 
