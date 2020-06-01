@@ -13,8 +13,8 @@ public class EstadoSangrando extends EstadoCombate
 	
 	public void ejecutarEstado()
 	{
-		System.out.println("\n" + this.componente.getNombre() + " está sangrando! Pierde 4 hp");
-		System.out.println(this.turnosRestantes + " turnos restantes sangrando" + "\n");
+		System.out.println(this.componente.getNombre() + " está sangrando! Pierde 4 hp");
+		System.out.println(this.turnosRestantes + " turnos restantes");
 		this.componente.dañar(4);
 
 	}

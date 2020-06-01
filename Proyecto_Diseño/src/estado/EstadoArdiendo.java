@@ -17,8 +17,8 @@ public class EstadoArdiendo extends EstadoCombate
 	public void ejecutarEstado()
 	{
 		
-		System.out.println("\n" + this.componente.getNombre() + " está ardiendo! Pierde 10 hp");
-		System.out.println(this.turnosRestantes + " turnos restantes ardiendo" + "\n");
+		System.out.println(this.componente.getNombre() + " está ardiendo! Pierde 10 hp");
+		System.out.println(this.turnosRestantes + " turnos restantes");
 		this.componente.dañar(10);
 		
 

@@ -10,13 +10,13 @@ public class Terraplanista extends Enemigo
 
 	public Terraplanista(String nombre, int ataque, int defensa, int vidaMaxima)
 	{
-		super(nombre, ataque, defensa, vidaMaxima, "La vuelta al mundo", "El Fakenew");
+		super(nombre, ataque, defensa, vidaMaxima, "La vuelta al mundo xd", "El articulo que he leido en Facebook");
 	}
 
 
 	public void usarHabilidadPrimaria()
 	{
-		System.out.println(this.getNombre() + " dió la vuelta al mundo y probó una comida que le curó 10hp!");
+		System.out.println(this.getNombre() + " dio la vuelta al mundo y probo una comida que le curó 10hp!");
 		this.curar(10);
 		
 	}
@@ -29,13 +29,13 @@ public class Terraplanista extends Enemigo
 		
 		if(probabilidadEstado.desorientado() == true) {
 			
-			System.out.println(this.getNombre() + " usó argumentos poco válidos para confudir y estás desorientado!");
+			System.out.println(this.getNombre() + " uso argumentos validos para confudir y estas desorientado!");
 			objetivo.añadirEstado(new EstadoDesorientado(objetivo));
 			
 		}
 		else {
 			
-			System.out.println(this.getNombre() + " usó argumentos illuminati y pensó que la tierra era redonda!");
+			System.out.println(this.getNombre() + " uso argumentos pero penso que la tierra era redonda!");
 			
 		}
 		
@@ -45,10 +45,10 @@ public class Terraplanista extends Enemigo
 	public void atacar(Jugador objetivo)
 	{
 		
-        System.out.println(this.getNombre() + "Tengo pruebas, me he visto todos los vídeos de Oliver Ibáñez!!!!!!");
+        System.out.println(this.getNombre() + " te lanzo una piedra chacho que tu cabeza será plana tambien!");
         int daño = Personaje.calc.calcularDaño(this, objetivo);
         
-        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre() + "\n");
+        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre());
         objetivo.dañar(daño);
 		System.out.println(objetivo.getNombre() + " le queda " + objetivo.getVida() + "/" + objetivo.getVidaMaxima() + " hp"); 
 		   

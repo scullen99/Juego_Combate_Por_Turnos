@@ -10,15 +10,15 @@ public class Vikingo extends Enemigo
 
 	public Vikingo(String nombre, int ataque, int defensa, int vidaMaxima)
 	{
-		super(nombre, ataque, defensa, vidaMaxima, "Recuperación", "Hacha Congelada");
+		super(nombre, ataque, defensa, vidaMaxima, "AAAAAAAAAAAAAAAAAAAAAA", "WAAAAAAAAAAAAAGH");
 	}
 
 
 	public void usarHabilidadPrimaria()
 	{
 		
-		System.out.println(this.getNombre() + " la bendición que me dió Odín me cura 30hp!");
-        this.curar(30);
+		System.out.println(this.getNombre() + " la bendicion que me dio odin me cura 10hp!");
+        this.curar(10);
 	
 
 	}
@@ -31,7 +31,7 @@ public class Vikingo extends Enemigo
 		
 		if(probabilidadEstado.congelado() == true) {
 		
-			System.out.println(this.getNombre() + " lanzó un hacha congelada y congeló a " + objetivo.getNombre());
+			System.out.println(this.getNombre() + " lanzo un hacha congelada y congelo a " + objetivo.getNombre());
 			objetivo.añadirEstado(new EstadoCongelado(objetivo));
 		
 		}
@@ -47,10 +47,10 @@ public class Vikingo extends Enemigo
 	public void atacar(Jugador objetivo)
 	{
 
-        System.out.println(this.getNombre() + " Antes de entrar en un lugar, fíjate por dónde se puede salir");
+        System.out.println(this.getNombre() + " jajajajaja soy Olaf que dicho al reves es Falo!");
         int daño = Personaje.calc.calcularDaño(this, objetivo);
         
-        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre() + "\n");
+        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre());
         objetivo.dañar(daño);
 		System.out.println(objetivo.getNombre() + " le queda " + objetivo.getVida() + "/" + objetivo.getVidaMaxima() + " hp"); 
 		    

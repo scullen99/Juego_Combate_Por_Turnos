@@ -7,7 +7,7 @@ public class CalculadoraDaño
 {
 
 	// daño = (dañoAtacante - defensaDefesor)
-	// Patrón Singleton
+	// Patron Singleton
 	public int calcularDaño(Personaje atacante, Personaje defensor)
 	{
 		int daño = atacante.getAtaque() - defensor.getDefensa();

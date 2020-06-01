@@ -10,9 +10,9 @@ public class CombateComponente implements InterfazCombate
 		// Este metodo implementa el combate entre los 2 personajes
 		int daño = Personaje.calc.calcularDaño(atacante, defensor);
 		
-		System.out.println(atacante.getNombre() + " hace " + String.valueOf(daño) + " daño a " + defensor.getNombre() + "\n");
+		System.out.println(atacante.getNombre() + " hace " + String.valueOf(daño) + " daño a " + defensor.getNombre());
 		defensor.dañar(daño);
-		System.out.println(defensor.getNombre() + " le queda " + defensor.getVida() + "/" + defensor.getVidaMaxima() + " hp" + "\n");
+		System.out.println(defensor.getNombre() + " le queda " + defensor.getVida() + "/" + defensor.getVidaMaxima() + " hp");
 	}
 
 }

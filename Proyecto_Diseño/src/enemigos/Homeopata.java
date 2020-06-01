@@ -10,15 +10,15 @@ public class Homeopata extends Enemigo
 
 	public Homeopata(String nombre, int ataque, int defensa, int vidaMaxima)
 	{
-		super(nombre, ataque, defensa, vidaMaxima, "Psicofármacos", "Ataque venenoso illuminati");
+		super(nombre, ataque, defensa, vidaMaxima, "Jeringuillazo", "Ataque venenoso illuminati");
 	}
 
 
 	public void usarHabilidadPrimaria()
 	{
 		
-		System.out.println(this.getNombre() + " se toma unas pastillas no muy fiables y se cura 1 hp!");	
-		this.curar(1);
+		System.out.println(this.getNombre() + " se mete un jeringuillazo y se cura 8 hp!");	
+		this.curar(8);
 
 	}
 
@@ -46,10 +46,10 @@ public class Homeopata extends Enemigo
 	public void atacar(Jugador objetivo)
     {
 		
-        System.out.println(this.getNombre() + "Homeópata: Las vacunas causan autismo pero no tanto como el que tengo yo!");
+        System.out.println(this.getNombre() + " las vacunas causan autismo pero no tanto como el que tengo yo!");
         int daño = Personaje.calc.calcularDaño(this, objetivo);
         
-        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre() + "\n");
+        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre());
         objetivo.dañar(daño);
 		System.out.println(objetivo.getNombre() + " le queda " + objetivo.getVida() + "/" + objetivo.getVidaMaxima() + " hp"); 
 		   

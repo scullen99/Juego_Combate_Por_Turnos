@@ -10,6 +10,7 @@ import escenarios.FactoryMercadona;
 import estrategia.*;
 import personajes.Jugador;
 
+
 public class Main {
 	
 	public static void main(String []args) {
@@ -20,38 +21,24 @@ public class Main {
 		
 		// Nos creamos a nuestro personaje que va a luchar contra los enemigos
 		// 1 vs 1 por turnos
+		int ataquePJ = 60;	
+		int defensaPJ = 25;
+		int vidaPJ = 200;
 		
 		//Crear 3 personajes
 		//for(int i = 0; i < 3; i++) {
+			
+		System.out.println("Escribe el nombre del jugador");
+			
+		Jugador jugador = new Jugador(inputTeclado.next(), ataquePJ, defensaPJ, vidaPJ);
 		
-		// El usuario introduce el nombre del personaje
-		System.out.println("Escribe el nombre del jugador: ");
-		String nombreJugador = inputTeclado.next();
-		
-		// El usuario introduce el ataque del personaje
-		System.out.println("Escribe el Ataque de " + nombreJugador + ":");
-		int ataquePJ = inputTeclado.nextInt();
-		
-		// El usuario introduce la defensa del personaje
-		System.out.println("Escribe la Defensa de " + nombreJugador + ":");
-		int defensaPJ = inputTeclado.nextInt();
-		
-		// El usuario introduce la vida del personaje
-		System.out.println("Escribe la vida de " + nombreJugador + ":");
-		int vidaPJ = inputTeclado.nextInt();
-		
-		Jugador jugador = new Jugador(nombreJugador, ataquePJ, defensaPJ, vidaPJ);
-		
-		//System.out.println("Escribe el Ataque de " + jugador.getNombre());
-		//System.out.println("Escribe la Defensa de " + jugador.getNombre());
-		//System.out.println("Escribe la vida de " + jugador.getNombre());
-		
-		System.out.println("\nStats de personaje: ");
+		inputTeclado.close();
+			
+		System.out.println("Stats del personaje: ");
 		System.out.println("Nombre: " + jugador.getNombre());
 		System.out.println("Ataque: " + ataquePJ);
 		System.out.println("Defensa: " + defensaPJ);
 		System.out.println("Vida: " + vidaPJ);
-		System.out.println(" ");
 			
 		//ataque += 5;
 		//defensa += 5;
@@ -78,9 +65,9 @@ public class Main {
 			
 			System.out.println("Turno de " + jugador.getNombre() + " vs " + enemigos.get(0).getNombre());
 			if(jugador.getCongelado()) {
-				System.out.println(jugador.getNombre() + " está congelado! Pierde su turno");
+				System.out.println(jugador.getNombre() + " esta congelado! Pierde su turno");
 			} else {
-				System.out.println("\n¿Qué quieres hacer?");
+				System.out.println("Que quieres hacer?");
 				System.out.println("1. Atacar");
 				System.out.println("2. Curarse");
 				System.out.println("3. No hacer nada");
@@ -89,25 +76,25 @@ public class Main {
 				switch(inputTeclado.nextInt()) {
 				
 				case 1:
-					System.out.println("\n" + jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre());
+					System.out.println(jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre());
 					jugador.atacar(enemigos.get(0));
 					
 					break;
 					
 				case 2:
-					System.out.println(jugador.getNombre() + " se cura 20 hp \n");
+					System.out.println(jugador.getNombre() + " se cura 20 hp");
 					jugador.curar(20);
 					break;
 					
 				case 3:
-					System.out.println(jugador.getNombre() + " se queda mirando ... \n");
+					System.out.println(jugador.getNombre() + " se queda mirando");
 					break;
 					
 				/*case 4:
 					break;*/
 					
 				default:
-					System.out.println("Opción introducida no válido. Se salta turno \n");
+					System.out.println("Opcion introducida erronea. Se salta turno");
 				}
 				
 				// Se ejecutan los estados del personaje
@@ -115,7 +102,7 @@ public class Main {
 			}		
 			// Jugador ha matado al enemigo
 			if(!enemigos.get(0).estaVivo()) {
-				System.out.println(jugador.getNombre() + " ha matado a " + enemigos.get(0).getNombre() + "\n");
+				System.out.println(jugador.getNombre() + " ha matado a " + enemigos.get(0).getNombre());
 				enemigos.remove(0);
 			} else {
 				// Turno del enemigo
@@ -137,14 +124,14 @@ public class Main {
 		// El jugador ha perdido el primer combate
 		if(!jugador.estaVivo()) {
 			
-			System.out.println("\nSe terminó el juego. :( ");
+			System.out.println("Se terminó el juego. :(");
 			
 		}
 		
 		// El jugador ha sobrevivido la primera fase
 		else {
 		
-			System.out.println("\nLa siguiente fase es en la Luna, Adelante!\n");
+			System.out.println("La siguiente fase es en la luna, Adelante!");
 			
 			// Segundo Escenario Luna
 			enemigos.add(fabricaLuna.getOso());
@@ -157,10 +144,9 @@ public class Main {
 				
 				System.out.println("Turno de " + jugador.getNombre() + " vs " + enemigos.get(0).getNombre());
 				if(jugador.getCongelado()) {
-					System.out.println(jugador.getNombre() + " está congelado! Pierde su turno");
+					System.out.println(jugador.getNombre() + " esta congelado! Pierde su turno");
 				} else {
-					//System.out.println("");
-					System.out.println("\n¿Qué quieres hacer?");
+					System.out.println("Que quieres hacer?");
 					System.out.println("1. Atacar");
 					System.out.println("2. Curarse");
 					System.out.println("3. No hacer nada");
@@ -169,25 +155,25 @@ public class Main {
 					switch(inputTeclado.nextInt()) {
 					
 					case 1:
-						System.out.println(jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre() + "\n");
+						System.out.println(jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre());
 						jugador.atacar(enemigos.get(0));
 						
 						break;
 						
 					case 2:
-						System.out.println(jugador.getNombre() + " se cura 20 hp \n");
+						System.out.println(jugador.getNombre() + " se cura 20 hp");
 						jugador.curar(20);
 						break;
 						
 					case 3:
-						System.out.println(jugador.getNombre() + " se queda mirando \n");
+						System.out.println(jugador.getNombre() + " se queda mirando");
 						break;
 						
 					/*case 4:
 						break;*/
 						
 					default:
-						System.out.println("Opción introducida errónea. Se salta turno \n");
+						System.out.println("Opcion introducida erronea. Se salta turno");
 					}
 					
 					// Se ejecutan los estados del personaje
@@ -216,13 +202,13 @@ public class Main {
 			
 			if(jugador.estaVivo() != true) {
 				
-				System.out.println("Se terminó el juego. \n");
+				System.out.println("Se terminó el juego.");
 				
 			}
 			
 			else {
 			
-				System.out.println("La siguiente fase es en Mercadona porque te falta el papel higienico, Adelante! \n");
+				System.out.println("La siguiente fase es en Mercadona porque te falta el papel higienico, Adelante!");
 				
 				// Tercer Escenario Mercadona
 				enemigos.add(fabricaMercadona.getOso());
@@ -237,7 +223,7 @@ public class Main {
 					if(jugador.getCongelado()) {
 						System.out.println(jugador.getNombre() + " esta congelado! Pierde su turno");
 					} else {
-						System.out.println("\nQue quieres hacer?");
+						System.out.println("Que quieres hacer?");
 						System.out.println("1. Atacar");
 						System.out.println("2. Curarse");
 						System.out.println("3. No hacer nada");
@@ -246,25 +232,25 @@ public class Main {
 						switch(inputTeclado.nextInt()) {
 						
 						case 1:
-							System.out.println(jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre() + "\n");
+							System.out.println(jugador.getNombre() + " se dispone a atacar a " + enemigos.get(0).getNombre());
 							jugador.atacar(enemigos.get(0));
 							
 							break;
 							
 						case 2:
-							System.out.println(jugador.getNombre() + " se cura 20 hp \n");
+							System.out.println(jugador.getNombre() + " se cura 20 hp");
 							jugador.curar(20);
 							break;
 							
 						case 3:
-							System.out.println(jugador.getNombre() + " se queda mirando \n");
+							System.out.println(jugador.getNombre() + " se queda mirando");
 							break;
 							
 						/*case 4:
 							break;*/
 							
 						default:
-							System.out.println("Opción introducida errónea. Se salta turno \n");
+							System.out.println("Opcion introducida erronea. Se salta turno");
 						}
 						
 						// Se ejecutan los estados del personaje
@@ -272,7 +258,7 @@ public class Main {
 					}		
 					// Jugador ha matado al enemigo
 					if(!enemigos.get(0).estaVivo()) {
-						System.out.println(jugador.getNombre() + " ha matado a " + enemigos.get(0).getNombre() +  "\n");
+						System.out.println(jugador.getNombre() + " ha matado a " + enemigos.get(0).getNombre());
 						enemigos.remove(0);
 					} else {
 						// Turno del enemigo
@@ -299,9 +285,9 @@ public class Main {
 				
 				else {
 					
-					System.out.println("\nGANASTE EL JUEGO ERES UNA BESTIA!!!!!");
+					System.out.println("GANASTE EL JUEGO ERES UNA BESTIA!!!!!");
 					System.out.println("");
-					System.out.println("\n\nTrabajo realizado por: ");
+					System.out.println("Trabajo realizado por: ");
 					System.out.println("Sergio Esteban Tarrero y Ernesto Cubo Pozo");
 					
 				}

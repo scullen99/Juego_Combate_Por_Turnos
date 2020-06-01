@@ -13,8 +13,8 @@ public class EstadoDesorientado extends EstadoCombate
 
 	public void ejecutarEstado()
 	{
-		System.out.println("\n" + this.componente.getNombre() + " está desorientado! no puede usar habilidades");
-		System.out.println(this.turnosRestantes + " turnos restantes desorientado" + "\n");
+		System.out.println(this.componente.getNombre() + " está desorientado! no puede usar habilidades");
+		System.out.println(this.turnosRestantes + " turnos restantes");
 
 		// no poder usar habilidades
 

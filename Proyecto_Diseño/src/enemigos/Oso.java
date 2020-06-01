@@ -17,8 +17,8 @@ public class Oso extends Enemigo
 	public void usarHabilidadPrimaria()
 	{
 		
-		System.out.println(this.getNombre() + " hibernó 8 horas y se curó 10hp");
-        this.curar(10);
+		System.out.println(this.getNombre() + " hiberno 8 horas y se curo 5hp");
+        this.curar(5);
 
 	}
 
@@ -46,10 +46,10 @@ public class Oso extends Enemigo
 	public void atacar(Jugador objetivo)
 	{
 		
-        System.out.println("Oso: Te meto un zarpazo y no vuelves!");  
+        System.out.println("Te meto un zarpazo y no vuelves!");  
         int daño = Personaje.calc.calcularDaño(this, objetivo);
         
-        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre() + "\n");
+        System.out.println(this.getNombre() + " hace " + String.valueOf(daño) + " daño a " + objetivo.getNombre());
         objetivo.dañar(daño);
 		System.out.println(objetivo.getNombre() + " le queda " + objetivo.getVida() + "/" + objetivo.getVidaMaxima() + " hp"); 
 		
