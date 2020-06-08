@@ -5,6 +5,8 @@ Trabajo realizado por <b>Sergio Esteban Tarrero</b> y <b>Ernesto Cubo Pozo</b>
 
 Proyecto final para la asignatura <b>Diseño de Software</b> Curso 2019/2020
 
+Práctica Refactorizada: https://github.com/scullen99/Refactoring.git
+
 # Desarrollo:
 
 [X] Uso del patrón Strategy
